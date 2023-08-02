@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Maad 97.5 FM - Website README</title>
-</head>
+
 <body>
 
 # Maad 97.5 FM Website
