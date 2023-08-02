@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maad 97.5 FM - Website README</title>
+</head>
+<body>
 
-## Getting Started
+# Maad 97.5 FM Website
 
-First, run the development server:
+Welcome to the GitHub repository for the official website of Maad 97.5 FM, your ultimate radio station!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Live Audio Player
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can tune in to Maad 97.5 FM anytime and enjoy live audio streaming of your favorite shows.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live Video (Currently Available on Desktop Only)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Catch the live video streams on our Facebook page whenever we go live. Please note that this feature is available on desktop only at launch.
 
-## Learn More
+## Current Show Information
 
-To learn more about Next.js, take a look at the following resources:
+The live audio player displays real-time information about the current show, so you're always informed about what's playing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Schedule and Presenters
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Stay updated with our schedule and get to know more about our talented presenters who bring you the best entertainment.
 
-## Deploy on Vercel
+## Contact Us
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Have any questions or feedback? Feel free to reach out to us using the contact form available on the website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Social Links
+
+Connect with us on various social media platforms:
+
+- [Facebook](https://www.facebook.com/maad97)
+- [Twitter](https://twitter.com/maad975)
+- [Instagram](https://www.instagram.com/maad97)
+- [YouTube](https://www.youtube.com/c/maad975)
+
+## Infomercial Video
+
+Learn more about Maad 97.5 FM by watching our exciting infomercial video available on the website.
+
+Visit the live website: [Maad 97.5 FM](https://www.maad97.com)
+
+Thank you for being a part of Maad 97.5 FM community!
+
+</body>
+</html>
