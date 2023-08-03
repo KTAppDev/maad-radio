@@ -20,7 +20,7 @@ const RadioPersonality = ({ title, host, time, imageSrc, bio }:
               alt={title}
               width={200}
               height={200}
-              className=" h-auto w-auto  object-cover float-left mr-2"
+              className=" object-cover float-left mr-2"
             />
             <Suspense fallback={<div>Loading...</div>}>
               {paragraphs?.map((paragraph, index) => (
