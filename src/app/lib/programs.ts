@@ -1,10 +1,32 @@
 export const programs = [
+
+  {
+    id: 'holyghost',
+    title: "Holy Ghost Power Truth & Light",
+    time: "05:00 - 07:00",
+    host: "Di Market Evangelist",
+    image: "/personalities/market.jpg",
+    days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
+    bio: `Praise the Most High, it's time for "Holy Ghost Power & Light," hosted by none other than the unapologetically real Market Evangelist! From the sacred hours of 4-7am, Monday to Friday, we gather 'round for a no-nonsense journey of gospel preaching and teaching.
+
+Mi brethren and sistren, get ready to receive the unfiltered truth as the Market Evangelist tells it like it is. With boldness and conviction, he fearlessly delivers the Word of the Almighty, cutting through the noise and speaking straight to the heart.
+
+In the stillness of dawn, the Holy Ghost Power descends upon us, and through the Market Evangelist's words, we are awakened to the reality of God's love and grace. There's no sugar-coating or beating around the bush – just raw, authentic preaching that resonates with the soul.
+
+This ain't your average gospel show; it's a spiritual wake-up call, calling us to embrace the truth and walk in the light of righteousness. The Market Evangelist's passion for the Word is contagious, and his unwavering devotion to spreading the Good News is a beacon of hope.
+
+So, rise and shine, for "Holy Ghost Power & Light" is here to enlighten your mornings with unyielding faith. Tune in as we receive the unfiltered truth, knowing that through the Gospel, we find strength, hope, and salvation.
+
+May the Holy Ghost Power guide us as we embrace the Market Evangelist's powerful message, and may the truth revealed in "Holy Ghost Power & Light" ignite our hearts and set our spirits ablaze with unwavering devotion to the Most High. Amen and hallelujah!`,
+
+  },
   {
     id: 'morningshow',
     title: "Morning Showcase",
     time: "07:00 - 10:00",
     host: "Veronica Ramsaroop",
     image: "/personalities/veronica.jpg",
+    days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
     bio: `Meet the vivacious voice that kickstarts your weekdays with a jolt of energy - it's none other than Veronica Ramsaroop! Hailing from the land of good vibes and groovy tunes, Veronica lights up the airwaves every Monday to Friday from 7 AM to 10 AM as the dazzling host of the Morning Showcase on MAAD 97.5 FM.
 
 With a contagious laughter that's sure to brighten even the gloomiest Monday, Veronica is the ultimate mood booster for your daily commute. She's the master of music, the queen of quips, and the guru of good times!
@@ -20,6 +42,7 @@ So, set your alarms and tune in every weekday morning to the Morning Showcase wi
     time: "10:00 - 13:00",
     host: "Fashion Diva Faith and DJ Leroy",
     image: "/personalities/supreme.jpg",
+    days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
     bio: `Get ready to be swept off your feet by the dazzling duo of radio royalty - it's time for "The Supreme Show" with none other than the fabulous Fashion Diva Faith and the electrifying DJ Leroy! This show is the epitome of fun and entertainment, bringing you the perfect blend of music, fashion, and celebrity gossip.
 
 From 10:00 to 13:00, every day, Fashion Diva Faith and DJ Leroy grace the airwaves, sprinkling their magic on your mid-mornings. Their dynamic chemistry sets the stage for a show that's bursting with laughter, wit, and charm.
@@ -39,6 +62,7 @@ So, grab your favorite drink, sit back, and let the fashion and music extravagan
     time: "15:00 - 18:00",
     host: "N.E.B 592",
     image: "/personalities/neb.jpg",
+    days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
     bio: `Delwin Neblett aka N.E.B is first and foremost one of the more versatile Artiste's coming out of the Guyana and the Caribbean Region at large. 
 N.E.B's musical creativity has both Caribbean and North American Influences and though more popularly known for his electrifying Raps, N.E.B's Music largely Incorporate's his smooth and silky vocals which are testimony to his formal training gained through, The Royal School Of Music, CSEC and The Barbados Community College where he completed an Associate's Degree In Music Majoring As A Vocalist. 
 The stage name "N.E.B 592" comes from the first three (3) letters of his last name (Neblett) and the country code 592 which identifies with Guyana. N.E.B has transcended his vocal talent and passion for Music into a Career in Broadcasting as The Host Of The Rush Hour Drive On Maad 97.5 FM, and now has a continuously growing fan base. 
@@ -79,15 +103,6 @@ Step up, step in, and let di music take ova! This ain't just any show; it's an i
 Even though di station's in Guyana, we bringin' di Caribbean to di world! From di first beat to di last, we keep di energy high, di vibes right, and di music flowin' like a sweet island breeze.
 
 So, mek we start di party and make some memories together! "Evening Vibez" wid Selector Andre inna di mix, mi massive - this a di place to be! So kick back, relax, and let di rhythm move yuh, 'cause we got di hottest dancehall and reggae tunes to keep yuh groovin' from dusk till dawn.♪♫ Ya done know!♪♫`,
-
-  },
-  {
-    id: 'latelateshow',
-    title: "The Late Late Show",
-    time: "21:00 - 23:30",
-    host: "Annmarie",
-    image: "https://i.pravatar.cc/200?img=19",
-    bio: "",
 
   },
 ];
