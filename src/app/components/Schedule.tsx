@@ -37,7 +37,7 @@ const Schedule = () => {
               <div className="flex items-center justify-between mb-2">
                 {/* <div className="font-bold p-1">{program.title}</div> */}
                 <div className="text-gray-500 p-1 text-center w-full font-bold text-xs sm:text-base">
-                  {program.time}
+                  {`${program.time} hrs`}
                 </div>
               </div>
               <Image
