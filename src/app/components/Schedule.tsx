@@ -16,6 +16,18 @@ const Schedule = () => {
     return colors[index % colors.length];
   };
 
+  const getShadowColor = (index: any) => {
+    const shadows = [
+      "shadow-blue-200/70",
+      "shadow-yellow-200/70",
+      "shadow-green-200/70",
+      "shadow-pink-200/70",
+      "shadow-purple-200/70",
+      "shadow-indigo-200/70",
+    ];
+    return shadows[index % shadows.length];
+  };
+
   return (
     <div className="w-full border-2 border-red-[#EDE0D4]">
       <h1
@@ -30,7 +42,7 @@ const Schedule = () => {
           <Link href={`bio/${program.id}`} key={index} >
             <div
               key={index}
-              className={`shadow-md p-4 rounded-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg ${getBgColor(
+              className={` p-4 rounded-md transition duration-300 ease-in-out transform shadow-lg ${getShadowColor(index)} hover:-translate-y-1 hover:shadow-lg ${getBgColor(
                 index
               )}`}
             >
@@ -45,7 +57,7 @@ const Schedule = () => {
                 alt={program.title}
                 width={150}
                 height={150}
-                className="w-full h-auto object-cover mb-2 rounded-md"
+                className="w-full h-auto object-fit mb-2 rounded-md"
               />
               <div className="font-bold text-sm sm:text-base">{program.title}</div>
 
