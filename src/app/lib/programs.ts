@@ -51,6 +51,7 @@ His mission as a broadcaster is to help create an awareness of any Guyanese pers
     time: "18:00 - 19:00",
     host: "Annmarie",
     image: "/personalities/annmarie.jpg",
+    days: ["monday", "tuesday", "thursday", "friday"],
     bio: `Step into the world of musical nostalgia with "The Meltdown" hosted by the enchanting Annmarie! This show takes you on a magical journey through time, embracing the charm of vintage rock, soca oldies, and timeless classics.
 
 From 18:00 to 19:00, every Monday, Tuesday, Thursday, and Friday, Annmarie graces the airwaves with her captivating voice and infectious enthusiasm. Her passion for music shines through as she curates a playlist that's sure to warm your heart and lift your spirits.
@@ -65,20 +66,19 @@ So, as the sun sets and the evening begins, tune in to "The Meltdown" and let An
   {
     id: 'eveningvibez',
     title: "Evening Vibez",
-    time: "19:00 - 21:00",
+    time: "19:00 - 20:00",
     host: "Selector Andre",
     image: "/personalities/selectorandre.jpg",
-    bio: `Bless up massive, it's the one and only Beenie Man, bringing you the irie vibes of "Evening Vibez" from 19:00 to 21:00, Monday to Friday! Ya know we got that dancehall and reggae all-round good music, straight from the heart of the Caribbean.
+    days: ["monday", "tuesday", "wednesday"],
+    bio: `Big up massive, it's the one and only "Evening Vibez," hosted by the vibes man himself, Selector Andre! We lockin' in from 19:00 to 21:00, Monday Tuesday and Wednesdays, with nothing but the sweetest dancehall and reggae tunes straight from the heart of the Caribbean.
 
-Selector Andre, mi bredren, got that real Caribbean influence flowin' in the mix, and when mi seh flowin', mi mean it bubblin' like the sweetest Guyanese cookup. He's got the dancehall magic that can turn any yard into a yard a yard dance inna Jamaica, no doubt!
+Mi people, get ready fi di irie vibes! Selector Andre got di Caribbean influence flowin' inna di mix, and when mi seh flowin', mi mean it's bubblin' like di best Guyanese cookup. Trust mi, we got di real deal, no fakin' around here.
 
-We talkin' 'bout the authentic island vibes, where the music caresses your soul and the beat moves ya feet like it's carnival time. Selector Andre, him a boss DJ, him a real dancehall ambassador, and him know di ting!
+Step up, step in, and let di music take ova! This ain't just any show; it's an island experience like no other. Selector Andre knows di ting, and him gonna make yuh feel like yuh right there in di dancehall a Jamaica, feelin' di riddim deep inna yuh soul.
 
-The station may be in Guyana, but mi waan everybody to feel the love and warmth of the Caribbean right through di airwaves. Selector Andre gonna take yuh on a musical journey like no other, where every tune tells a story, and every riddim carries the spirit of the islands.
+Even though di station's in Guyana, we bringin' di Caribbean to di world! From di first beat to di last, we keep di energy high, di vibes right, and di music flowin' like a sweet island breeze.
 
-So, pull up a chair and turn up di volume, mi people! "Evening Vibez" with Selector Andre and Maad 97 FM inna di mix - a combination dat naah go wrong. From Guyana to di world, we keep the Caribbean flag flyin' high, and the dancehall fire blazing bright!
-
-Selecta, wheel it!♪♫ 'Cause the vibes, it's gonna nice up di evening, yeah!♪♫`,
+So, mek we start di party and make some memories together! "Evening Vibez" wid Selector Andre inna di mix, mi massive - this a di place to be! So kick back, relax, and let di rhythm move yuh, 'cause we got di hottest dancehall and reggae tunes to keep yuh groovin' from dusk till dawn.♪♫ Ya done know!♪♫`,
 
   },
   {
