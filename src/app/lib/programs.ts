@@ -2,7 +2,7 @@ export const programs = [
 
   {
     id: 'holyghost',
-    title: "Holy Ghost Power Truth & Light",
+    title: "Holy Ghost Power",
     time: "05:00 - 07:00",
     host: "Di Market Evangelist",
     image: "/personalities/market.jpg",
