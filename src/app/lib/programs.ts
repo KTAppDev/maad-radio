@@ -39,13 +39,10 @@ So, grab your favorite drink, sit back, and let the fashion and music extravagan
     time: "15:00 - 18:00",
     host: "N.E.B 592",
     image: "/personalities/neb.jpg",
-    bio: `Meet the musical maverick, N.E.B 592, the maestro behind the thrilling "Rush Hour Drive" on MAAD 97.5 FM! This radio show host is as witty as they come, with a charisma that can light up the darkest of roads.
-
-From 15:00 to 18:00hrs every Monday to Friday, N.E.B 592 takes you on a journey through the heart of dancehall and ghetto gritty beats, igniting your afternoons with the grooviest tunes. But wait, that's not all – this genius of melodies can slow it down too, with an eclectic mix that covers a vast array of genres. His knowledge of music is simply unmatched!
-
-Beyond his skills as a host, N.E.B 592 is also a rap prodigy, dropping bars that set the airwaves ablaze. When he's on the mic, you know you're in for an unforgettable experience.
-
-So buckle up and get ready to hit the road with the master of musical madness! Tune in to "Rush Hour Drive" with N.E.B 592, where the beats are banging, the vibes are contagious, and the party never stops. This show is your one-way ticket to a thrilling ride through the world of electrifying music!`,
+    bio: `Delwin Neblett aka N.E.B is first and foremost one of the more versatile Artiste's coming out of the Guyana and the Caribbean Region at large. 
+N.E.B's musical creativity has both Caribbean and North American Influences and though more popularly known for his electrifying Raps, N.E.B's Music largely Incorporate's his smooth and silky vocals which are testimony to his formal training gained through, The Royal School Of Music, CSEC and The Barbados Community College where he completed an Associate's Degree In Music Majoring As A Vocalist. 
+The stage name "N.E.B 592" comes from the first three (3) letters of his last name (Neblett) and the country code 592 which identifies with Guyana. N.E.B has transcended his vocal talent and passion for Music into a Career in Broadcasting as The Host Of The Rush Hour Drive On Maad 97.5 FM, and now has a continuously growing fan base. 
+His mission as a broadcaster is to help create an awareness of any Guyanese person at home or abroad who is doing something of substance whether in the creative industries or otherwise. N.E.B's unique style of Radio delivery is one of his biggest assets as a broadcaster and he wishes to use his voice as best he cab to represent those without a voice and help to bring about change if necessary.`,
 
   },
   {
