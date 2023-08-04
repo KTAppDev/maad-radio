@@ -5,37 +5,37 @@ const ContactSection = () => {
   const socialHandles = [
     {
       name: "Facebook",
-      handle: "myfacebookhandle",
+      handle: "maad975",
       logo: "/facebook-logo.png",
       slug: "facebook",
     },
     {
       name: "Whatsapp",
-      handle: "mywhatsapphandle",
+      handle: "maad97fm",
       logo: "/whatsapp-logo.png",
       slug: "whatsapp",
     },
     {
       name: "Twitter",
-      handle: "mytwitterhandle",
+      handle: "maad975fm",
       logo: "/twitter-logo.png",
       slug: "twitter",
     },
     {
       name: "Instagram",
-      handle: "myinstagramhandle",
+      handle: "maad975fm",
       logo: "/instagram-logo.png",
       slug: "instagram",
     },
     {
       name: "Youtube",
-      handle: "mylinkedinhandle",
+      handle: "maad97fm",
       logo: "/youtube-logo.png",
       slug: "youtube",
     },
     {
       name: "Tik Tok",
-      handle: "mylinkedinhandle",
+      handle: "maad97fm",
       logo: "/tiktok-logo.png",
       slug: "tiktok",
     },
