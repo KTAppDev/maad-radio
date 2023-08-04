@@ -63,10 +63,10 @@ So, grab your favorite drink, sit back, and let the fashion and music extravagan
     host: "N.E.B 592",
     image: "/personalities/neb.jpg",
     days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
-    bio: `Delwin Neblett aka N.E.B is first and foremost one of the more versatile Artiste's coming out of the Guyana and the Caribbean Region at large. 
+    bio: `Delwin Neblett aka N.E.B is first and foremost one of the more versatile Artistes coming out of Guyana and the Caribbean Region at large. 
 N.E.B's musical creativity has both Caribbean and North American Influences and though more popularly known for his electrifying Raps, N.E.B's Music largely Incorporate's his smooth and silky vocals which are testimony to his formal training gained through, The Royal School Of Music, CSEC and The Barbados Community College where he completed an Associate's Degree In Music Majoring As A Vocalist. 
 The stage name "N.E.B 592" comes from the first three (3) letters of his last name (Neblett) and the country code 592 which identifies with Guyana. N.E.B has transcended his vocal talent and passion for Music into a Career in Broadcasting as The Host Of The Rush Hour Drive On Maad 97.5 FM, and now has a continuously growing fan base. 
-His mission as a broadcaster is to help create an awareness of any Guyanese person at home or abroad who is doing something of substance whether in the creative industries or otherwise. N.E.B's unique style of Radio delivery is one of his biggest assets as a broadcaster and he wishes to use his voice as best he cab to represent those without a voice and help to bring about change if necessary.`,
+His mission as a broadcaster is to help create an awareness of any Guyanese person at home or abroad who is doing something of substance whether in the creative industries or otherwise. N.E.B's unique style of Radio delivery is one of his biggest assets as a broadcaster and he wishes to use his voice as best he can to represent those without a voice and help to bring about change when necessary.`,
 
   },
   {
@@ -94,7 +94,7 @@ So, as the sun sets and the evening begins, tune in to "The Meltdown" and let An
     host: "Selector Andre",
     image: "/personalities/selectorandre.jpg",
     days: ["monday", "tuesday", "wednesday"],
-    bio: `Big up massive, it's the one and only "Evening Vibez," hosted by the vibes man himself, Selector Andre! We lockin' in from 19:00 to 21:00, Monday Tuesday and Wednesdays, with nothing but the sweetest dancehall and reggae tunes straight from the heart of the Caribbean.
+    bio: `Big up massive, welcome to the "Evening Vibez," hosted by the vibes man himself, Selector Andre! We lockin' in from 19:00 to 21:00, Monday Tuesday and Wednesdays, with nothing but the sweetest dancehall and reggae tunes straight from the heart of the Caribbean.
 
 Mi people, get ready fi di irie vibes! Selector Andre got di Caribbean influence flowin' inna di mix, and when mi seh flowin', mi mean it's bubblin' like di best Guyanese cookup. Trust mi, we got di real deal, no fakin' around here.
 
