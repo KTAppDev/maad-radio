@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import ReactAudioPlayer from "react-audio-player";
 import { programs } from "@/app/lib/programs";
+import { convertDaysToNumbers } from "@/app/lib/convertDaysToNumber";
 interface Program {
   id: string;
   title: string;
@@ -27,12 +28,17 @@ const Schedule: React.FC = () => {
   const getCurrentShow = (): Program | null => {
     const currentTime = new Date();
     // if now is weekend then return null
-    if (currentTime.getDay() === 0 || currentTime.getDay() === 6) {
-      console.log('Weekend, so not returning any show for the player');
-      return null;
-    }
+    // if (currentTime.getDay() === 0 || currentTime.getDay() === 6) {
+    //   console.log('Weekend, so not returning any show for the player');
+    //   return null;
+    // }
     const currentProgram = programs.find((program) => {
+      let daysTheProgramIsOn = convertDaysToNumbers(program?.days);
+      if (!daysTheProgramIsOn.includes(currentTime.getDay())) {
+        return null;
+      }
       const { startTime, endTime } = parseTime(program.time);
+      console.log('daysTheProgramIsOn', daysTheProgramIsOn);
       return currentTime >= startTime && currentTime <= endTime;
     });
     return currentProgram || null;

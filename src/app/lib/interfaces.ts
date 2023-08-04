@@ -5,6 +5,7 @@ export interface iProgram {
   time: string;
   host: string;
   image: string;
+  days: string[];
   bio: string;
 }
 
