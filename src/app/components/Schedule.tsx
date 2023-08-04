@@ -37,12 +37,12 @@ const Schedule = () => {
         FEATURED SHOWS
       </h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 p-2">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-2">
         {programs.map((program: iProgram, index: number) => (
           <Link href={`bio/${program.id}`} key={index} >
             <div
               key={index}
-              className={` p-2 rounded-md transition duration-300 ease-in-out transform shadow-lg ${getShadowColor(index)} hover:-translate-y-1 hover:shadow-lg ${getBgColor(
+              className={` p-2 rounded-md transition duration-300 ease-in-out transform shadow-lg ${getShadowColor(index)} hover:-translate-y-1 ${getBgColor(
                 index
               )}`}
             >
@@ -73,7 +73,7 @@ const Schedule = () => {
               />
               <div className="font-bold text-sm sm:text-base">{program.title}</div>
 
-              <div className="text-sm text-gray-600">{program.host}</div>
+              <div className="text-xs sm:text-sm text-gray-600">{program.host}</div>
             </div>
           </Link>
         ))}
