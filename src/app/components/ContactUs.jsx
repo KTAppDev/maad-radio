@@ -8,9 +8,9 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_PUBLIC_KEY)
+    console.log(process.env.NEXT_PUBLIC_SERVICE_ID)
 
-    emailjs.sendForm(process.env.NEXT_PUBLIC_TEST_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
