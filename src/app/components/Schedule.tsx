@@ -38,7 +38,7 @@ const Schedule = () => {
       </h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 p-2">
-        {programs.map((program: iProgram, index: any) => (
+        {programs.map((program: iProgram, index: number) => (
           <Link href={`bio/${program.id}`} key={index} >
             <div
               key={index}
@@ -51,7 +51,7 @@ const Schedule = () => {
                   return (
                     <div
                       key={index}
-                      className="text-gray-500 px-1 text-center w-full text-[8px] sm:text-base"
+                      className="text-gray-500 px-1 text-center w-full text-[8px] sm:text-base font-bold"
                     >
                       {day.slice(0, 3).toUpperCase()}
                     </div>
