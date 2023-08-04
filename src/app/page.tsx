@@ -5,6 +5,7 @@ import Schedule from "./components/Schedule";
 import Youtube from "./components/Youtube";
 import GetLiveVideo from "./components/GetLiveVideo";
 import { ContactUs } from "./components/ContactUs";
+import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex w-full min-h-screen flex-col items-center  py-8 px-4 gap-4">
@@ -30,6 +31,11 @@ export default function Home() {
           </p>
         </div>
         <ContactUs />
+        <div className="w-full h-auto ">
+          <Image alt='promo' src="/maad-promo.jpg" width={900} height={500}
+            className="w-full h-auto object-fit my-2 rounded-md"
+          />
+        </div>
       </div>
       <ContactSection />
     </main>

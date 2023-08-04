@@ -38,7 +38,6 @@ const Schedule: React.FC = () => {
         return null;
       }
       const { startTime, endTime } = parseTime(program.time);
-      console.log('daysTheProgramIsOn', daysTheProgramIsOn);
       return currentTime >= startTime && currentTime <= endTime;
     });
     return currentProgram || null;

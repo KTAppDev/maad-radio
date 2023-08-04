@@ -58,9 +58,9 @@ const Schedule = () => {
                   );
                 })}
               </div>
-              <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center justify-between mb-1">
                 {/* <div className="font-bold p-1">{program.title}</div> */}
-                <div className="text-gray-500 p-1 text-center w-full font-bold text-xs sm:text-base">
+                <div className="text-gray-500 text-center w-full font-bold text-xs sm:text-base">
                   {`${program.time} hrs`}
                 </div>
               </div>

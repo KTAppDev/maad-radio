@@ -20,7 +20,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="w-full mx-auto text-start p-4 border-2 border-sky-50 bg-[#333336] shadow-md rounded-lg">
+    <form id="contact" ref={form} onSubmit={sendEmail} className="w-full mx-auto text-start p-4 border-2 border-sky-50 bg-[#333336] shadow-md rounded-lg">
       <div className="mb-4">
         <label className="block text-gray-200 text-sm font-bold mb-2" htmlFor="name">
           Name
