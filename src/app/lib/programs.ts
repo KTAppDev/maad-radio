@@ -40,7 +40,7 @@ So, set your alarms and tune in every weekday morning to the Morning Showcase wi
     id: 'supremeshow',
     title: "Supreme Show",
     time: "10:00 - 13:00",
-    host: "Fashion Diva Faith and DJ Leroy",
+    host: "Fashion Diva Faith & DJ Leroy",
     image: "/personalities/supreme.jpg",
     days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
     bio: `Get ready to be swept off your feet by the dazzling duo of radio royalty - it's time for "The Supreme Show" with none other than the fabulous Fashion Diva Faith and the electrifying DJ Leroy! This show is the epitome of fun and entertainment, bringing you the perfect blend of music, fashion, and celebrity gossip.

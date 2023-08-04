@@ -11,6 +11,7 @@ const page = ({ params }: { params: { id: string } }) => {
         host={program?.host!}
         time={program?.time!}
         imageSrc={program?.image!}
+        days={program?.days!}
         bio={program?.bio!}
       />
     </div>

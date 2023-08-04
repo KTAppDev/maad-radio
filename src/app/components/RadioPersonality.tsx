@@ -1,18 +1,30 @@
 import React, { Suspense } from 'react';
 import Image from 'next/image';
 
-const RadioPersonality = ({ title, host, time, imageSrc, bio }:
-  { title: string, host: string, time: string, imageSrc: string, bio: string }) => {
+const RadioPersonality = ({ title, host, time, imageSrc, bio, days }:
+  { title: string, host: string, time: string, imageSrc: string, bio: string, days: string[] }) => {
   let paragraphs = bio.split("\n");
   return (
-    <div className="flex items-center mb-4 text-white">
+    <div className="flex justify-center items-center mb-2 text-white">
 
       <div>
-        {/* <h2 className="text-2xl font-bold">{title}</h2> */}
-        <div className="flex flex-col mt-4 tracking-widest items-center justify-center">
-          {/* <p className="text-gray-400 text-2xl font-bold">{`${time} hrs`}</p> */}
-          {/* <p className="text-lg font-medium">{host}</p> */}
-        </div>
+        {/* <span className="text-gray-500 sm:text-base font-bold text-center"> */}
+        {/*   <p className="text-sm sm:text-base">{`${title}`}</p> */}
+        {/*   <p className="text-sm sm:text-base">{`${time} hrs`}</p> */}
+        {/* </span> */}
+        {/* <div className="flex flex-row mt-2 tracking-widest items-center justify-center"> */}
+        {/*   {days.map((day: string, index: number) => { */}
+        {/*     return ( */}
+        {/*       <div */}
+        {/*         key={index} */}
+        {/*         className="flex flex-row justify-center text-gray-500 px-1 text-center w-full text-[8px] sm:text-base" */}
+        {/*       > */}
+        {/*         {day.slice(0, 3).toUpperCase()} */}
+        {/*       </div> */}
+        {/*     ); */}
+        {/*   })} */}
+        {/**/}
+        {/* </div> */}
         <div className="flex flex-col items-center justify-center mt-6">
           <p className="text-justify">
             <Image
@@ -20,7 +32,7 @@ const RadioPersonality = ({ title, host, time, imageSrc, bio }:
               alt={title}
               width={200}
               height={200}
-              className=" object-cover float-left mr-2"
+              className="  object-cover float-left mr-2"
             />
             <Suspense fallback={<div>Loading...</div>}>
               {paragraphs?.map((paragraph, index) => (
