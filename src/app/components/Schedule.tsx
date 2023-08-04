@@ -9,7 +9,7 @@ const Schedule = () => {
       "bg-blue-200",
       "bg-yellow-200",
       "bg-green-200",
-      "bg-pink-200",
+      "bg-orange-200",
       "bg-purple-200",
       "bg-indigo-200",
     ];
@@ -21,7 +21,7 @@ const Schedule = () => {
       "shadow-blue-200/70",
       "shadow-yellow-200/70",
       "shadow-green-200/70",
-      "shadow-pink-200/70",
+      "shadow-orange-200/70",
       "shadow-purple-200/70",
       "shadow-indigo-200/70",
     ];
