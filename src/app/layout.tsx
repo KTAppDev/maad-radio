@@ -8,8 +8,8 @@ import LoadingSpinner from "./components/LoadingSpinner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Maad 97.5 FM",
-  description: "Is We Own!",
+  title: "Maad 97.5 FM - Is We Own GUYANA!",
+  description: "Maad 97.5FM - Guyana's top radio station, is your go-to destination for a diverse auditory experience. Explore the best in music, news, talk shows, and cultural programming that reflects the essence of Guyanese life. Stay updated with the latest news, engage in thought-provoking discussions, and celebrate our nation's heritage with Maad 97.5FM. Tune in now to connect with our vibrant Guyanese community.",
 
   // image: "/logo.png",
 };
